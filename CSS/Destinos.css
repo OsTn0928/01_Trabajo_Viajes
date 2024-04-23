@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px; /* Margen hacia la derecha */
+    
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.destinos-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.destino {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.destino h2 {
+    font-size: 24px;
+    margin-top: 0;
+}
+
+.destino p {
+    font-size: 16px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+

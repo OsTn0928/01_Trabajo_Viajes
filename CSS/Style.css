@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%; /* Establece el ancho del contenedor en un 80% */
+    margin: 0 auto; /* Centra horizontalmente el contenedor */
+}
+
+header {
+    background-color: #333; /* Establece el color de fondo */
+    color: #fff; /* Establece el color del texto */
+    padding: 20px 0; /* Añade relleno superior e inferior */
+}
+
+header h1 {
+    margin: 0; /* Elimina el margen por defecto del título */
+    text-align: center;
+}
+
+nav ul {
+    list-style: none; /* Quita los puntos de la lista */
+    padding: 10px;
+    margin: 15px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 80px; /* Margen hacia la derecha */
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px 0; /* Añade relleno superior e inferior */
+}
+
+#banner {
+    background-image: url('https://marketing.wearedrew.co/hubfs/viajes-de-negocios-51365102503012.jpg'); /* Establece la imagen de fondo del banner */
+    background-size: cover; /* Ajusta la imagen al área del banner */
+    color: #000000;
+    text-align: center;
+    padding: 150px 0; /* Define relleno superior e inferior */
+}
+
+#banner h2 {
+    font-size: 80px; /* Establece tamaño de h2 */
+    margin: 15px;
+}
+
+#banner p {
+    font-size: 50px;
+    margin-bottom: 20px; /* Define margen inferior */
+}
+
+.btn {
+    display: inline-block; /* Asegura que los botones se muestren en línea */
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Agrega transición suave al cambio de color */
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Establece color de fondo en hover boton */
+}
+
+.destinos-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Cambia a 'space-around' para un espaciado uniforme */
+}
+
+.destino {
+    width: calc(30% - 20px); /* Ajusta el ancho de cada destino según el número de columnas que desees */
+    margin-bottom: 40px; /* Aumenta el margen inferior para dar espacio a la descripción */
+    text-align: center;
+}
+
+.destino img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.destino h3,
+.destino p {
+    margin-top: 10px; /* Agrega distancia entre imagen y h3 */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Añade relleno superior e inferior */
+}
+
+#contacto {
+    padding: 40px 0; /* Añade relleno superior e inferior */
+}
+
+#contacto .container {
+    text-align: center;
+}
+
+#contacto h2 {
+    margin-bottom: 20px; /* Define margen inferior */
+}
+
+#contacto form {
+    max-width: 500px; /* Establece el ancho máximo del elemento formulario */
+    margin: 0 auto; /* Centra horizontalmente dentro del contenedor */
+    padding: 20px;
+    background-color: #b7c2c0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Establece una sombra alrededor del formulario */
+}
+
+#contacto label {
+    display: block;
+    margin-bottom: 10px; /* Define margen inferior */
+    font-weight: bold;
+}
+
+#contacto textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px; /* Define margen inferior */
+    border: 1px solid #fff;
+    border-radius: 5px;
+    box-sizing: border-box; /* Incluye el padding y el borde del ancho dentro del elemento que lo contiene */
+}
+
+#contacto textarea {
+    resize: vertical; /* Permite redimensionar el área del texto verticalmente */
+}
